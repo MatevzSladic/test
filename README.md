@@ -67,7 +67,7 @@ $ code --install-extension ms-vscode-remote.remote-wsl
 ### **SSH key setup:**
 
 Run the following command to generate an SSH key. The command will gereate a key and outprint it in the console. After that just copy it and add it to the list of SSH keys in your GitLab account.  
-```console
+```sh
 $ cd ~ && sudo apt update && sudo apt upgrade -y && sudo apt install git && sudo apt install git-lfs && ssh-keygen && ssh-agent -s && sudo chmod 600 ~/.ssh/id_rsa && sudo chmod 600 ~/.ssh/id_rsa.pub && clear && cat ~/.ssh/id_rsa.pub
 ```
 
