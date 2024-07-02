@@ -84,7 +84,7 @@ $ cd ~ && mkdir DSWorkspace && cd DSWorkspace && git lfs clone --recurse-submodu
 
 After cloning the repository make sure you are located in your home directory. When you are, run the following command to start the execution of the setup script.
 ```console
-$ cd ~ && chmod +x ./DSWorkspace/SiriusXhs/SetupScripts/Setup.sh && ./DSWorkspace/SiriusXhs/SetupScripts/Setup.sh
+  <span style="user-select: none;">$ </span>cd ~ && chmod +x ./DSWorkspace/SiriusXhs/SetupScripts/Setup.sh && ./DSWorkspace/SiriusXhs/SetupScripts/Setup.sh
 ```
 
 The script will ask you for your password and then it will install all the necessary packages and dependencies.
