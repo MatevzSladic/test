@@ -71,6 +71,8 @@ Run the following command to generate an SSH key. The command will gereate a key
 $ cd ~ && sudo apt update && sudo apt upgrade -y && sudo apt install git && sudo apt install git-lfs && ssh-keygen && ssh-agent -s && sudo chmod 600 ~/.ssh/id_rsa && sudo chmod 600 ~/.ssh/id_rsa.pub && clear && cat ~/.ssh/id_rsa.pub
 ```
 
+<p><code>$</code> <code>echo "Hello, World!"</code></p>
+
 ### **Cloning the SiriusXHS repository:**
 
 After setting up the SSH key in your GitLab account Run the following command to clone the SiriusXHS repository to your home directory. **THIS MAY TAKE SOME TIME!**
